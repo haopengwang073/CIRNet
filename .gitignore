@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local release preparation and unpublished manuscript
+.local/
+weights/
+outputs/
+*.pth
+*.pfm

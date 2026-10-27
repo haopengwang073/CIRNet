@@ -1,0 +1,4 @@
+# Install torch==2.8.0 and torchvision==0.23.0 first; see README.md.
+numpy==1.26.4
+timm==1.0.22
+Pillow==11.3.0

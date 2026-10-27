@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cirnet"
+version = "1.0.0"
+description = "Compact Iterative Refinement Network for Real-time Stereo Matching"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Haopeng Wang"}]
+dependencies = [
+    "torch==2.8.0",
+    "torchvision==0.23.0",
+    "timm==1.0.22",
+    "numpy==1.26.4",
+    "Pillow==11.3.0",
+]
+
+[tool.setuptools]
+packages = ["core", "utils"]
